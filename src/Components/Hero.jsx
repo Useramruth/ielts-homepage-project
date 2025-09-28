@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../assets/logo.png";
 
 const Hero = () => {
   return (
@@ -23,7 +24,7 @@ const Hero = () => {
           </div>
           <div>
             <img
-              src={require("../assets/logo.png")}
+              src={logo}
               alt="IELTS Institute"
               className="w-40 h-40 rounded-xl shadow-lg"
             />
