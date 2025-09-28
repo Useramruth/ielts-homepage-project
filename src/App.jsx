@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Features from "./components/Features";
@@ -9,7 +9,7 @@ import GetStartedPage from "./pages/GetStartedPage";
 
 function App() {
   return (
-    <Router basename="/ielts-homepage-project">
+    <Router>
       <Navbar />
       <Routes>
         <Route
