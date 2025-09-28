@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import Hero from ".//Components/Hero";
+import Hero from "./components/Hero";
 import Features from "./components/Features";
 import Testimonials from "./components/Testimonials";
 import Footer from "./components/Footer";
@@ -9,7 +9,7 @@ import GetStartedPage from "./pages/GetStartedPage";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/ielts-homepage-project">
       <Navbar />
       <Routes>
         <Route
@@ -28,4 +28,5 @@ function App() {
     </Router>
   );
 }
+
 export default App;
